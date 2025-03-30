@@ -4,11 +4,11 @@ This project is a **React-based, map-based crime reporting dashboard** where use
 
 ## Features
 
-- **Crime Data Integration**: Crime reports are fetched from a provided JSON file, containing essential information related to each reported crime.
+- **Crime Data Integration**: Crime reports are fetched from the CrimeData JSON file, containing essential information related to each reported crime.
   
 - **Interactive Map**: Crime reports are displayed as drop pins on the map, allowing users to interact with each pin.
 
-- **Popup Cards**: On hovering or clicking a pin, a **popup card** is displayed with the following details:
+- **Popup Cards**: On clicking a pin, a **popup card** is displayed with the following details:
   - **Report Details**: Information about the crime.
   - **Crime Type**: Type of crime (e.g., Assault, Robbery, Homicide, Kidnapping).
   - **Report Date & Time**: When the crime was reported.
@@ -63,15 +63,22 @@ This project is a **React-based, map-based crime reporting dashboard** where use
     npm run dev
     ```
 
-    This will run the app locally on `http://localhost:3000`.
+    This will run the app locally on `http://localhost:5174`.
 
 ## Usage
 
 - The map will automatically load with crime report pins once the page is opened.
+  ![image](https://github.com/user-attachments/assets/9a813332-18f3-4c32-ad6e-4ec4fc16300d)
+
 - Hover or click on a pin to see a popup card with detailed information about the crime.
+- ![image](https://github.com/user-attachments/assets/3e104e21-a230-48c8-8f2b-25e613397707)
+
 - Use the filter controls to show or hide specific types of crimes (Assault, Robbery, Homicide, Kidnapping).
+- ![image](https://github.com/user-attachments/assets/d52dcac6-abcb-42d5-a6b3-1d90ae3bbbec)
+
 
 ## Future Improvements
 
 - Add a navbar with text Crime city and report New crime button that will display a form to push new data to crime JSON
-- Add user authentication for reporting new crimes or viewing personal data.
+- Make the ui and styling more intuitive
+- deploy site
