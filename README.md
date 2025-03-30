@@ -1,1 +1,63 @@
-# CrimeCity
+# Crime Reporting Dashboard
+
+This project is a **React-based, map-based crime reporting dashboard** where users can view crime reports as drop pins on an interactive map. Each pin represents a specific crime, and users can interact with the pins to see more details about each crime report.
+
+## Features
+
+- **Crime Data Integration**: Crime reports are fetched from a provided JSON file, containing essential information related to each reported crime.
+  
+- **Interactive Map**: Crime reports are displayed as drop pins on the map, allowing users to interact with each pin.
+
+- **Popup Cards**: On hovering or clicking a pin, a **popup card** is displayed with the following details:
+  - **Report Details**: Information about the crime.
+  - **Crime Type**: Type of crime (e.g., Assault, Robbery, Homicide, Kidnapping).
+  - **Report Date & Time**: When the crime was reported.
+  - **Report Status**: Current status of the report (e.g., Pending, En Route, On Scene, Under Investigation, Resolved).
+
+- **Category-Based Filtering**: A feature to filter crime reports by type, allowing users to show or hide specific crime categories on the map.
+
+## Technologies Used
+
+- **React.js**: Frontend framework for building the interactive UI.
+- **Leaflet.js**: JavaScript library for creating interactive maps.
+- **HTML & CSS**: Basic structure and styling.
+- **JavaScript**: Logic for fetching and processing the crime data, displaying it on the map, and implementing the filtering feature.
+
+## Installation
+
+1. Clone this repository to your local machine.
+
+    ```bash
+    git clone https://github.com/YourUsername/CrimeCity.git
+    ```
+
+2. Install dependencies using npm:
+
+    ```bash
+    npm install
+    ```
+
+3. Start the development server:
+
+    ```bash
+    npm start
+    ```
+
+    This will run the app locally on `http://localhost:3000`.
+
+## Usage
+
+- The map will automatically load with crime report pins once the page is opened.
+- Hover or click on a pin to see a popup card with detailed information about the crime.
+- Use the filter controls to show or hide specific types of crimes (Assault, Robbery, Homicide, Kidnapping).
+  
+## Future Improvements
+
+- Implement search functionality for specific crime reports.
+- Add user authentication for reporting new crimes or viewing personal data.
+
+## Link to Deployed Project
+
+If you have deployed your project (e.g., using GitHub Pages, Netlify, or another platform), provide the link below:
+
+[Deployed Project Link](https://linktotheproject.com)
