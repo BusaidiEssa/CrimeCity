@@ -46,15 +46,16 @@ This project is a **React-based, map-based crime reporting dashboard** where use
     npm install @heroicons/react
     ```
 
-4. Install **ShadCN UI** for UI components:
+4. Install **ShadCN UI** for UI components if missing:
 
     ```bash
-    npx shadcn-ui@latest add button
-    npx shadcn-ui@latest add badge
-    npx shadcn-ui@latest add tooltip
-    npx shadcn-ui@latest add alert-dialog
-    npx shadcn-ui@latest add skeleton
-    npx shadcn-ui@latest add alert
+    npx shadcn@latest
+    npx shadcn@latest add button
+    npx shadcn@latest add badge
+    npx shadcn@latest add tooltip
+    npx shadcn@latest add alert-dialog
+    npx shadcn@latest add skeleton
+    npx shadcn@latest add alert
     ```
 
 5. Start the development server:
