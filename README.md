@@ -20,6 +20,8 @@ This project is a **React-based, map-based crime reporting dashboard** where use
 
 - **React.js**: Frontend framework for building the interactive UI.
 - **Leaflet.js**: JavaScript library for creating interactive maps.
+- **Heroicons**: Icon set used for the UI.
+- **ShadCN UI**: A set of UI components for React to easily add interactive elements.
 - **HTML & CSS**: Basic structure and styling.
 - **JavaScript**: Logic for fetching and processing the crime data, displaying it on the map, and implementing the filtering feature.
 
@@ -37,10 +39,28 @@ This project is a **React-based, map-based crime reporting dashboard** where use
     npm install
     ```
 
-3. Start the development server:
+3. Install **Leaflet.js** and **Heroicons** for the map and iconography:
 
     ```bash
-    npm start
+    npm install leaflet
+    npm install @heroicons/react
+    ```
+
+4. Install **ShadCN UI** for UI components:
+
+    ```bash
+    npx shadcn-ui@latest add button
+    npx shadcn-ui@latest add badge
+    npx shadcn-ui@latest add tooltip
+    npx shadcn-ui@latest add alert-dialog
+    npx shadcn-ui@latest add skeleton
+    npx shadcn-ui@latest add alert
+    ```
+
+5. Start the development server:
+
+    ```bash
+    npm run dev
     ```
 
     This will run the app locally on `http://localhost:3000`.
@@ -50,14 +70,8 @@ This project is a **React-based, map-based crime reporting dashboard** where use
 - The map will automatically load with crime report pins once the page is opened.
 - Hover or click on a pin to see a popup card with detailed information about the crime.
 - Use the filter controls to show or hide specific types of crimes (Assault, Robbery, Homicide, Kidnapping).
-  
+
 ## Future Improvements
 
-- Implement search functionality for specific crime reports.
+- Add a navbar with text Crime city and report New crime button that will display a form to push new data to crime JSON
 - Add user authentication for reporting new crimes or viewing personal data.
-
-## Link to Deployed Project
-
-If you have deployed your project (e.g., using GitHub Pages, Netlify, or another platform), provide the link below:
-
-[Deployed Project Link](https://linktotheproject.com)
